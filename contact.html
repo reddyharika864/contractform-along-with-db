@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us form</title>
+    <style>
+body{
+   background-color:white;
+   font-size: 110%;
+   background-repeat: repeat;
+}
+button{
+    background-color: red;
+}
+h1{
+color: blue;
+}
+.id{
+
+    background-color: grey;
+   height: 55px;
+   text-align: center;
+    font-style: italic;
+    font-size: 1cm;
+    color: whitesmoke;
+}
+table{
+    border: 0.1cm solid black;
+    height: 8cm;
+    width: 10cm;
+    cursor: pointer;
+    color: blue;
+}
+table:hover{
+    transform: scale(1.2);
+    background-color: lightsteelblue;
+
+}
+    </style>
+</head>
+<body align="center">
+    <form action="connect.php" method="post" >
+        <p style="font-size: 0.7cm; color:blue">Welcome!!!</p>
+         <div class="id"> contact us</div>
+        <br><br><br>
+       <table align="center">
+        <div class="container-fluid">
+            <div class="row mt-4">
+              <div class="item col-sm-6 col-md-4 mb-3">
+         <td> 
+                <label >Name:</label><br>
+                <input id="name" type="text" placeholder="Enter your name" name="username" required><br><br>
+                <label >Email:</label><br>
+                <input id="email" placeholder="Enter your email id" name="email" type="text"><br><br>
+                <a href="">forgot password</a><br><br>
+                <label for="a">Text us</label><br>
+                <textarea name="text" id="a" cols="30"></textarea><br><br>
+                <label>image upload:</label><br>
+                <input type="file" name="file" id="file"><br><br>
+                
+                <input type="submit" value="Submit" name="submit" id="subuser">
+           </td>
+        </div>
+        </div>
+        </div>
+       </table>
+       </form>
+   </form>
+</body>
+</html>
